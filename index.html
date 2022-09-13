@@ -1,57 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--icone logo-->
+    <link rel="shortcut icon" href="./img/LogoMakr.png" type="image/x-icon" />
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700;900&family=Grape+Nuts&family=Montserrat:wght@400;700&family=My+Soul&family=Square+Peg&display=swap" rel="stylesheet"> 
+    <!--style/css-->
     <link rel="stylesheet" href="./css/style.css">
-    <title>Módulo Sass</title>
+    <!-- Bootstrap css only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!--Botstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+    <title>Só eléticos</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h4>Loja de Carros</h4>
+            <h1>Só elétricos</h1>
         </div>
     </header>
     <section>
         <div class="destack">
             <div class="container">
-                <h1>Audi A5</h1>
-                <h2>Destaque</h2>
-                <img src="./images/pexels-mike-244206.jpg" alt="Foto Audi por Mike em Pexels">
-                <p>Carro seminovo, 4 portas, completo com ar-condicionado, vidro e travas elelétricas.</p>
+                <h2>Carros elétricos no Brasil</h2>
+                <img class="img-fluid rounded-3"src="./img/main.jpg" alt="foto carro elétrico" >
             </div>
-        </div>
-        <div class="container">
-            <div class="blocks cars">
-                <h2>Ver Carros</h2>
-                <ul>
-                    <li>
-                        <div class="img-container">
-                            <img src="./images/pexels-mike-431950.jpg" alt="Foto Mike em Pexels">
-                        </div> 
-                        <a href="#01">Ver mais</a>
-                    </li>
-                    <li>
-                        <div class="img-container">
-                            <img src="./images/pexels-pixabay-248747.jpg" alt="Foto Pixabay Pixels">
-                        </div>
-                        <a href="#02">Ver mais</a>
-                    </li>
-                    <li>
-                        <div class="img-container">
-                            <img src="./images/pexels-torsten-dettlaff-70912.jpg" alt="Foto Pexels Torsten">
-                        </div> 
-                        <a href="#03"> Ver mais</a>
-                    </li>
-                </ul>
+        </div></section>
+        <section>
+            <div class="container">
+                <div class="blocks cars">
+                    <h2>Tudo sobre mobilidade urbana</h2>
+                    <ul>
+                        <li>
+                            <div class="img-container">
+                                <video class="img-fluid border-2" src="./img/video1.mp4" alt="video carro elétrico"
+                                playsinline="playsinline"
+                                autoplay="autoplay"
+                                muted="muted"
+                                loop="loop"
+                                loading="lazy"
+                                >
+                            </div> 
+                            <button class="btn btn-primary" href="#01">Ver mais</button>
+                        </li>
+                        <li>
+                            <div class="img-container">
+                                <video class="img-fluid border-2" src="./img/video2(1).mp4" alt="vendas de carro elétrico"
+                                playsinline="playsinline"
+                                autoplay="autoplay"
+                                muted="muted"
+                                loop="loop"
+                                loading="lazy"
+                                >
+                            </div>
+                            <button class="btn btn-primary" href="#02">Ver mais</button>
+                        </li>
+                        <li>
+                            <div class="img-container">
+                                <video class="img-fluid border-2"  src="./img/video3.mp4" alt="carro elétrico"
+                                playsinline="playsinline"
+                                autoplay="autoplay"
+                                muted="muted"
+                                loop="loop"
+                                loading="lazy"
+                                >
+                            </div> 
+                            <button class="btn btn-primary" href="#03">Ver mais</button>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </section>
-    <footer>
-        <div class="container">
-            <p> &copy; Desenvolvido por Amadeo Bon.</p>
-        </div>
-    </footer>
-</body>
-</html>
+        </section>
+        <footer>
+            <div class="container footer">
+                <p> &copy; Desenvolvido por Amadeo Bon.</p>
+            </div>
+        </footer>
+    </body>
+    </html>

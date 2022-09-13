@@ -20,13 +20,14 @@
         color: $color-02;
         display: block;
         margin: $space-default auto;
-        width: 30%;
+        width: 100%;
         
         .img-container {
             display: block;
-            height: 200px;
+            height: 180px;
             overflow: hidden;
             width: 100%;
+            
         }
 
         a {
