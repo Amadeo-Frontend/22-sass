@@ -1,4 +1,8 @@
-
+@media (min-width: 768px) {
+  li{
+    padding:8px;
+  }
+}
 @media (max-width: 576px) {
 ul{
 display: flex;
@@ -7,4 +11,9 @@ flex-direction: column !important;
 height: auto !important;
   }
 
+}
+@media (max-width: 320px) {
+  .destack img{
+    width: 90%;
+  }
 }

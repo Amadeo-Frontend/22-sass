@@ -41,6 +41,7 @@ body {
     font-family: $font-family-default;
     font-size: $font-small;
     color: $color-default;
+    overflow-x: hidden;
 }
 
 p {

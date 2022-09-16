@@ -40,7 +40,8 @@ img {
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
-  color: #444;
+  color: rgb(209, 2, 246);
+  overflow-x: hidden;
 }
 
 p {
@@ -120,7 +121,7 @@ footer {
   color: rgb(2, 49, 103);
 }
 .cars li a {
-  background-color: #444;
+  background-color: rgb(209, 2, 246);
 }
 
 .destack {
@@ -165,12 +166,22 @@ video {
   justify-content: center;
 }
 
+@media (min-width: 768px) {
+  li {
+    padding: 8px;
+  }
+}
 @media (max-width: 576px) {
   ul {
     display: flex;
     align-content: center !important;
     flex-direction: column !important;
     height: auto !important;
+  }
+}
+@media (max-width: 320px) {
+  .destack img {
+    width: 90%;
   }
 }
 
